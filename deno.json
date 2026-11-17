@@ -1,0 +1,8 @@
+{
+  "name": "edge-relay",
+  "version": "1.0.0",
+  "main": "api/relay.js",
+  "tasks": {
+    "deploy": "deno deploy --project=edge-relay api/relay.js"
+  }
+}

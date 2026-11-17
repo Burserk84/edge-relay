@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "buildCommand": "",
+  "devCommand": "",
+  "installCommand": "",
+  "framework": null,
+  "functions": {
+    "api/relay.js": {
+      "runtime": "edge",
+      "maxDuration": 60
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/api/relay"
+    }
+  ]
+}

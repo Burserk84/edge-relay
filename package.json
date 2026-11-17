@@ -1,0 +1,12 @@
+{
+  "name": "edge-relay",
+  "version": "1.0.0",
+  "description": "Universal edge relay - HTTP proxy for AI providers via x-relay-target header",
+  "main": "api/relay.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"No tests specified\""
+  },
+  "keywords": ["relay", "proxy", "edge", "vercel", "cloudflare", "deno", "netlify"],
+  "license": "MIT"
+}

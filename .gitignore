@@ -1,0 +1,6 @@
+node_modules/
+.vercel/
+.wrangler/
+.netlify/
+*.log
+.DS_Store
